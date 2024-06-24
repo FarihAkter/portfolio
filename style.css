@@ -51,6 +51,7 @@ p{
     width: 300px;
 
 }
+
 .hero-image
 {
 
@@ -96,4 +97,16 @@ box-shadow: 5px 5px 5px rgb(23, 21, 21);
     padding: 20px;
 
     gap: 10px;
+}
+.color
+{
+    color: rgb(70, 1, 51);
+    font-size: larger;
+    font-weight: bold;
+}
+.color1
+{
+    color: rgb(70, 1, 51);
+    font-size: larger;
+    font-weight: bold;
 }
