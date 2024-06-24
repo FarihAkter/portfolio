@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkslategrey;
+    color: azure;
+    font-weight: bold;
+ 
+}
+.nav-links
+{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 11, 0);
+}
+.logo-text{
+    font-size: 25px;
+}
+#showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px;
+}
+.inf
+{
+    
+    padding: 1px ;
+    margin-left: 0px;
+}
+p{
+    padding: 10px 1px 10px 0px;
+}
+.hero-img.hero-image
+{
+    width: 300px;
+
+}
+.hero-image
+{
+
+box-shadow: 5px 5px 5px rgb(23, 21, 21);
+}
+.bdy-part
+{
+    background-color: aliceblue;
+    margin-top: 40px;
+}
+#skill-part
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 80px;
+   
+}
+.htm
+{
+    padding: 10px;
+    background-color: moccasin;
+    
+}
+.css
+{
+    padding: 10px;
+    background-color: moccasin;
+}
+.javas
+{
+    padding: 10px;
+    background-color: moccasin;
+}
+.prjct
+{
+   
+}
+.prj
+{
+    padding: 20px;
+
+    gap: 10px;
+}
