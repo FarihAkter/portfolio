@@ -1,6 +1,6 @@
 *
 {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,10 +9,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: darkslategrey;
+    background-color: rgb(115, 145, 145);
     color: azure;
     font-weight: bold;
- 
+   gap: 0px;
 }
 .nav-links
 {
@@ -36,12 +36,15 @@ a{
     align-items: center;
     justify-content:space-between;
     padding: 40px;
+    
 }
 .inf
 {
     
     padding: 1px ;
     margin-left: 0px;
+    
+   
 }
 p{
     padding: 10px 1px 10px 0px;
@@ -54,12 +57,12 @@ p{
 
 .hero-image
 {
-
+width: 250px;
 box-shadow: 5px 5px 5px rgb(23, 21, 21);
 }
 .bdy-part
 {
-    background-color: aliceblue;
+    
     margin-top: 40px;
 }
 #skill-part
@@ -69,34 +72,87 @@ box-shadow: 5px 5px 5px rgb(23, 21, 21);
     justify-content:space-between;
     padding: 10px;
     gap: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
    
 }
 .htm
 {
     padding: 10px;
-    background-color: moccasin;
+    background-color: rgba(55, 123, 122, 0.442);
+    border-radius: 30px;
     
 }
 .css
 {
     padding: 10px;
-    background-color: moccasin;
+    background-color: rgba(55, 123, 122, 0.442);
+    border-radius: 30px;
 }
 .javas
 {
     padding: 10px;
-    background-color: moccasin;
+    background-color: rgba(55, 123, 122, 0.442);
+    border-radius: 30px;
 }
-.prjct
+#prjct
 {
-   
+    padding: 50px;
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    
+
+    
 }
-.prj
+.prj1
+{
+    
+    background-color: hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+}
+.prj2
+{
+    
+    background-color:  hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+}
+
+.prj3
+{
+    
+    background-color:  hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+    
+}
+.prj4
+{
+    
+    background-color: hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+}
+.prj5
+{
+    
+    background-color:  hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+}
+.prj6
+{
+    
+    background-color: hsla(74, 14%, 31%, 0.415);
+    padding: 10px;
+}
+.sub1
 {
     padding: 20px;
-
-    gap: 10px;
+}
+.sub2
+{
+    padding: 20px;
+}
+.sub3
+{
+    padding: 20px;
 }
 .color
 {
@@ -109,4 +165,27 @@ box-shadow: 5px 5px 5px rgb(23, 21, 21);
     color: rgb(70, 1, 51);
     font-size: larger;
     font-weight: bold;
+}
+.bdy
+{
+    background-color: rgba(114, 111, 53, 0.204);
+    gap: 30px;
+    
+}
+#form-section
+{
+    padding: 30px;
+}
+button
+{
+font-size:16px;
+color: black;
+font-weight: bold;
+background-color: rgba(215, 211, 202, 0.458);
+border-radius: 20%;
+font-style: oblique;
+}
+button:hover{
+    background-color: rgb(171, 181, 183);
+    color: rgb(11, 0, 0);
 }
